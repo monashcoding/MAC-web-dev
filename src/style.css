@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+
+.main_heading {
+  font-family: 'Open Sans', sans-serif;;
+  font-weight: 700;
+  font-size: 45px;
+  margin-left: 160px;
+}
+
+.subheading {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.img_txt {
+  width: 20%;
+  float: left;
+  padding-left: 160px;
+  padding-right: 100px;
+}
+
+.body_para {
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+.main_subheading {
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-left: 160px;
+  margin-bottom: 40px;
+  
+}
+
+img {
+  width: 45%;
+  transition: opacity 0.3s;
+}
+
+img:hover {
+  opacity: 60%;
+}
+
+
+.image {
+  padding-top: 30px;
+}
+
+.social_media_icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 160px;
+}
+
+.social_icon_img_div {
+  margin-right: 20px;
+}
+
+.social_icon_img {
+  transition: scale 0.2s;
+}
+
+.social_icon_img:hover{
+  transform: scale(1.5, 1.5);
+}
